@@ -1,39 +1,41 @@
 # 解决方案/产数小微ICT工具箱
 
-Windows 桌面办公工具，包含报价转换、Word 服务清单、收支表、询价函、方案解构、网络拓扑、设备图库及抠图等功能。
+Windows 桌面办公工具，提供报价转换、Word 服务清单、收支表、询价函、方案解构、网络拓扑、设备图库、抠图以及容量、带宽和镜头选型工具。
 
-本仓库仅公开下载说明及程序包，项目源码保持私有。公开包不内置自有能力清单或集采设备表，使用者可通过软件自行上传自己的清单；导入和查询功能均保留。
+本仓库用于公开下载说明及程序包，源码保持私有。
 
-## 下载 v1.0.0（公开版）
+## 下载最新版 v1.1.0
 
-- [下载完整 Windows 64 位 ZIP](https://github.com/3374313410-debug/digital-office-download/releases/download/v1.0.0/digital-office-v1.0.0-windows-x64.zip)
-- [发行版页面与文件校验](https://github.com/3374313410-debug/digital-office-download/releases/tag/v1.0.0)
-- [Gitee 下载说明页面](https://gitee.com/zhong-shuhao/digital-office-download)
+- [下载完整 Windows 64 位 ZIP](https://github.com/3374313410-debug/digital-office-download/releases/download/v1.1.0/digital-office-v1.1.0-windows-x64.zip)
+- [新版发行说明与文件校验](https://github.com/3374313410-debug/digital-office-download/releases/tag/v1.1.0)
+- [历史版本](https://github.com/3374313410-debug/digital-office-download/releases)
 
-只需下载一个 ZIP，无需分卷。文件大小为 829,358,167 字节（约 791 MiB），解压后约占用 1.8 GB。适用于 Windows 10/11 64 位。
+发布于 **2026-10-30**。只需下载一个 ZIP，无需分卷。文件大小为 909,382,239 字节（约 867 MiB），解压后约占用 1.81 GiB；建议预留 4 GB 磁盘空间。适用于 Windows 10/11 64 位。
 
 ## 运行方法
 
-1. 下载 `digital-office-v1.0.0-windows-x64.zip`。
+1. 下载 `digital-office-v1.1.0-windows-x64.zip`。
 2. 将整个 ZIP 解压到本机文件夹。
-3. 打开解压后的 `解决方案-产数小微ICT工具箱` 文件夹，双击 `解决方案-产数小微ICT工具箱.exe`。
+3. 打开 `解决方案-产数小微ICT工具箱`，双击 `解决方案-产数小微ICT工具箱.exe`。
 
-请保留 EXE 同目录中的 `_internal` 文件夹。本次发布包可直接解压运行；旧版 `Setup.exe` 不适用于本次发布包。
+请保留 EXE 同目录中的 `_internal` 和 `LensSelectTool` 文件夹。本包可以直接解压运行，无需运行旧版 `Setup.exe`。已有用户建议解压到一个新文件夹再启动；同一 Windows 账户下的本地配置和已导入清单继续保留。
 
-新电脑首次运行时没有预置业务清单。已有电脑上的本地清单会继续保留，替换程序不会清除用户数据。
+## 最新变化
 
-程序来自 2026-09-28 构建的现有 dist，本次移除预置能力清单及其导入元数据，保留其余 5,311 个程序与资源文件，版本继续使用 v1.0.0。
+- 增加视频容量、带宽、摄像机焦距及海康镜头选型等工具。
+- 优化网络拓扑工具栏、文本框、自动对齐、区域框和 Visio 导出。
+- Word 服务清单增加通用提示词版本，保留原版提示词。
 
-## AI 服务配置
+## AI 服务和清单
 
-AI 服务需要联网，并由使用者在本机配置自己的 DeepSeek 或 MiniMax API Key。发布包不提供作者的密钥，也不包含用户配置或网页 AI 登录资料。
+AI 服务需要联网，请在软件中配置自己的 OpenAI 兼容 API 地址、API Key 和模型。公开包不提供作者密钥，不包含用户配置或浏览器登录资料。
+
+公开版不预置自有能力清单或集采设备业务表，保留查询、导入及检索功能，使用者可自行导入清单。办公模板、设备图标、浏览器及抠图模型保留。
 
 ## 文件校验
 
-SHA-256：
-
 ```text
-2702a486b075dfbeefa44adae14a005268a88c49016ac3dc96ac9bf962a2419d
+9cd0e6f005e5065b4b81e8b16c4a4ed38a470e3496e7b0961e5df53ccc3809f7  digital-office-v1.1.0-windows-x64.zip
 ```
 
-可在发行版页面下载 `SHA256SUMS.txt` 进行核对。
+可在[发行版页面](https://github.com/3374313410-debug/digital-office-download/releases/tag/v1.1.0)下载 `SHA256SUMS.txt` 进行核对。
