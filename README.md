@@ -1,6 +1,6 @@
 # 解决方案/产数小微ICT工具箱 v1.2.0
 
-推荐只下载 [Setup.exe](https://github.com/3374313410-debug/digital-office-download/releases/download/v1.2.0/Setup.exe)，大小为 62,976 字节（61.5 KiB）。
+推荐只下载 [Setup.exe](https://github.com/3374313410-debug/digital-office-download/releases/download/v1.2.0/Setup.exe)，大小为 67,584 字节（66.0 KiB）。
 
 运行 Setup 可输入或浏览选择安装目录，支持 Windows 10/11 64 位及 .NET Framework 4.8。首次安装本版本需要联网下载约 866 MiB 完整资源，安装后程序资源约 1.81 GiB。需要离线包时下载完整 ZIP。
 
