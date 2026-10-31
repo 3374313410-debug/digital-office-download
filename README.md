@@ -2,7 +2,7 @@
 
 推荐只下载 [Setup.exe](https://github.com/3374313410-debug/digital-office-download/releases/download/v1.2.0/Setup.exe)，大小为 62,976 字节（61.5 KiB）。
 
-运行 Setup 可输入或浏览选择安装目录，支持 Windows 10/11 64 位及 .NET Framework 4.8。首次安装本版本需要联网下载约 866 MiB 完整资源，安装后程序资源约 1.81 GiB，建议预留约 4 GiB 磁盘空间。需要离线包时下载完整 ZIP。
+运行 Setup 可输入或浏览选择安装目录，支持 Windows 10/11 64 位及 .NET Framework 4.8。首次安装本版本需要联网下载约 866 MiB 完整资源，安装后程序资源约 1.81 GiB。需要离线包时下载完整 ZIP。
 
 安装后的程序每天启动后在后台检查更新，距上次成功检查不足 24 小时时跳过；随时可用“帮助 → 检查更新”。有新版时显示说明，由用户确认后才安装。v1.1.0 用户需先手动安装一次 v1.2.0，才能收到后续版本提示。
 
@@ -19,3 +19,12 @@
 文件校验值见对应发行版附件 SHA256SUMS.txt。
 国内下载可使用 [Gitee Setup.exe](https://gitee.com/zhong-shuhao/digital-office-download/releases/download/v1.2.0/Setup.exe)（64 KiB），由安装器自动处理分卷。
 
+
+
+安装器修订 2（2026-10-31）：
+
+- 直接安装到选定文件夹，不再自动追加应用子目录。
+- 修复部分 Windows 环境中目录移动被拒绝导致安装失败的问题；安装失败可恢复旧版。
+- 修复中文按钮文字截断，适配放大字体。
+- 显示整体百分比，涵盖下载、校验、解压和安装，完成后到 100%。
+- 去掉预留空间的提示；保留空间不足时的检查。
